@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="styles.css">
+
+<h1 id='title'>
+  
+  <title id='title'>freeCodeCamp Survey Form</title>
+  <p id='description'>freeCodeCamp Survey Form</p>
+
+</h1>
+
+<body>
+    <form id='survey-form'>
+      <div>
+        <label id='name-label'>Name: 
+          <input id='name' type='text' placeholder='Enter Name Here' required>
+        </label>
+      </div>
+      <div>
+        <label id='email-label'>Email:
+          <input id='email' type='email' placeholder='Enter Email Here' required>
+        </label>
+      </div>
+      <div>
+        <label id='number-label'>Number: 
+          <input min='1' max='99' id='number' type='number' placeholder='Enter #'>
+        </label>
+      </div>
+      <label id='satisfaction-level'>Satisfaction Level: 
+        <select id='dropdown'>
+          <option value='high'>High</option>
+          <option value='neutral'>Neutral</option>
+          <option value='low'>Low ):</option>
+        </select>     
+      </label>
+      <div>
+        <label id='sex'>Sex: 
+          <input name='sex-input' type='radio' value='male'>Male</input>
+          <input name='sex-input' type='radio' value='female'>Female</input>          
+        </label>
+      </div>
+      <div>
+        <input name='does_have_experience' type='checkbox' value='experience_true'>
+          I have coding experience
+        </input>
+      </div>
+      <div>
+        <input name='does_not_have_experience' type='checkbox' value='experience_false'>
+          I do NOT have coding experience
+        </input>
+      </div>
+      <div>
+        Additional Comments:
+        <textarea name='additional_comments' type='textarea'> </textarea>
+        
+      </div>
+      <button id='submit'>
+
+      </button>
+
+      
+    </form>
+</body>
